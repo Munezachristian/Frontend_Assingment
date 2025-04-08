@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><form action="">
+    <h2>Login_form</h2>
+    <label for="">username:</label>
+    <input id="name" type="text" name="username" required><br><br>
+    <label for="">password:</label>
+    <input id="password" type="text" name="username" required><br><br>
+    <button type="submit">Submit</button>
+</form>
+    <script>
+            document.getElementById("myForm").addEventListener("submit", function(event) {
+      const inputs = this.querySelectorAll("input[type='text'][required]");
+      for (let i = 0; i < inputs.length; i++) {
+        if (inputs[i].value.trim() === "") {
+          alert("Please fill out all required fields.");
+          event.preventDefault();
+          return;
+        }
+      }
+    });
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+  }
+  
+  h5 {
+    color: #007bff;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+  }
+  
+  .navs {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .image img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+  }
+  
+  .first {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .first p {
+    margin: 10px 0;
+  }
+  
+  .first strong {
+    color: #007bff;
+  }
+  
+  .second {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .second p {
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  .third, .fourth, .fifth, .sixth, .seventh {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    margin: 8px 0;
+  }
+  
+  .seventh ul li {
+    margin: 15px 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    body {
+      padding: 10px;
+    }
+  
+    .navs {
+      font-size: 2em;
+    }
+  
+    .image img {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .first, .second, .third, .fourth, .fifth, .sixth, .seventh {
+      padding: 15px;
+    }
+  }
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1em;
+    color: #555;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+  }
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:active {
+    background-color: #388e3c;
+  }
+  
+    

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muneza Christian - CV</title>
+  <link rel="stylesheet" href="cv.css" />
+  <script>
+    
+    function toggleVisibility(sectionId) {
+      var section = document.getElementById(sectionId);
+      if (section.style.display === "none") {
+        section.style.display = "block";
+      } else {
+        section.style.display = "none";
+      }
+    }
+  </script>
+</head>
+<body>
+
+  <div class="navs">Curriculum Vitae</div>
+
+  <div class="image">
+    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Profile Icon" width="150" height="150" />
+  </div>
+
+  <div class="first">
+    <h5>Personal Information</h5>
+    <p><strong>Name:</strong> Muneza Christian</p>
+    <p><strong>Father's Name:</strong> Leonard</p>
+    <p><strong>Mother's Name:</strong> Rose</p>
+    <p><strong>Email:</strong> your-email@example.com</p>
+    <p><strong>Phone:</strong> 07889998878</p>
+    <p><strong>Address:</strong> Rwanda</p>
+  </div>
+
+  <div class="second" id="professionalSummary">
+    <h5>Professional Summary</h5>
+    <p>Motivated and hardworking IT student at Tumba College of Technology with a background in Software Development from high school...</p>
+  </div>
+
+  <button onclick="toggleVisibility('professionalSummary')">Toggle Professional Summary</button>
+
+  <div class="third">
+    <h5>Education</h5>
+    <ul>
+        <li>2011-2016: Primary school: Saint Jacoob</li>
+      <li>2017-2019:High School: ES KADUHA</li>
+      <li>2020-2023:High School: Software Development – College Appec Remera Rukoma</li>
+      <li>Current: IT Student – Tumba College of Technology</li>
+    </ul>
+  </div>
+
+  <div class="fourth">
+    <h5>Skills</h5>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Basic Python or Java (if applicable)</li>
+      <li>Problem Solving, Teamwork</li>
+    </ul>
+  </div>
+
+  <div class="fifth">
+    <h5>Experience</h5>
+    <ul>
+      <li>Built websites as part of a high school project using HTML and CSS</li>
+    </ul>
+  </div>
+
+  <div class="sixth">
+    <h5>Hobbies & Interests</h5>
+    <ul>
+      <li>Playing Basketball</li>
+      <li>Playing Music</li>
+      <li>Watching Movies</li>
+    </ul>
+  </div>
+
+  <div class="seventh">
+    <h5>Referees</h5>
+    <ul>
+        <li><strong>Mizero Paccy</strong><br>
+            Email: mizeropaccy@example.com<br>
+            Phone: +250789 123 456
+          </li><br>
+          <li><strong>Mugisha Patrick</strong><br>
+            Email: mugishapatrick@example.com<br>
+            Phone: +250789353656
+          </li><br>
+          <li><strong>Niyonzima Aimable</strong><br>
+            Email: niyonzimaaimable@example.com<br>
+            Phone: +250788123333
+          </li>
+    </ul>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Muneza Christian. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
